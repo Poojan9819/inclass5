@@ -1,0 +1,163 @@
+/* Name:Poojan Patel , Student Number: 8980323 */
+body {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font: 16px/1.5 , sans-serif;
+    padding: 20px;
+    font:400 ;
+  }
+  .structural {
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+  }
+  footer {
+    border: 1px solid #000000;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px 0;
+  }
+  header{
+    border: 1px solid #000000;
+    text-align: left;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 10px 0;
+  
+  }
+  #gallery {
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 10px; 
+    margin-top: 10px;
+    height: 670px;
+    
+  }
+  .pojaan {
+    width: 370px;  
+    height: 250px; 
+    object-fit: cover;  
+  }
+      
+  #gallery figure {
+    border: 1px solid black; 
+    
+  }
+  @media (max-width: 600px) {
+    html {
+      font-size: 10px;
+    }
+  
+    #gallery {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  
+    body {
+      display: block;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    align-items: stretch;
+    margin-left: 10px;
+    
+  }
+  
+  header {
+    background-color: hsl(189, 81%, 53%);
+  }
+  
+  main {
+    background-color: hsl(173, 100%, 50%);
+   
+    flex: 2 1 70%;
+    width: 70%;
+    border-radius: 25px;
+     font-family: Arial, Helvetica, sans-serif ;
+  }
+ 
+  
+  
+  
+  aside {
+    background-color: hsl(166, 51%, 67%);
+    float: right;
+    width: 20%;
+  border: 1px solid black;
+    
+  }
+  
+  footer {
+    background-color: hsl(300, 100%, 76%);
+    clear: both;
+  }
+  
+  a:hover {
+    color: #ff0;
+  }
+  
+  footer p {
+    font-size: 0.8em;
+  }
+  
+ 
+
+nav li {
+    display: inline;
+    list-style-type: none;
+}
+
+nav a {
+    border: 2px solid rgb(3, 166, 231);
+    color: rgb(255, 143, 121);
+    background-color: cornsilk;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: cornsilk;
+    background-color: rgb(0, 191, 255);
+}
+form {
+  border: 5px dashed;
+  padding: 5px;
+}
+
+main, aside {
+  height: auto;
+}
+
+input[type=text], input[type=email], input[type=submit], select, option {
+  width: 50%;
+  display: block;
+  height: 2em;
+}
+
+input[type=radio], input[type=checkbox] {
+  height: 2em;
+  width: 2em;
+}
+
+select, option, label, legend, input[type=submit] {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+textarea {
+  width: 50%;
+  display: block;
+}
+
+fieldset {
+  border: none;
+}
